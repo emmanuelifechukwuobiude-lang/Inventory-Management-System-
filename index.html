@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+<h2>Smart Stock</h2>
+
+<ul>
+<li><a href="index.html">Dashboard</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="add-product.html">Add Product</a></li>
+</ul>
+</div>
+
+<div class="main">
+
+<h1>Inventory Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Products</h3>
+<p>250</p>
+</div>
+
+<div class="card">
+<h3>Low Stock</h3>
+<p>18</p>
+</div>
+
+<div class="card">
+<h3>Out of Stock</h3>
+<p>6</p>
+</div>
+
+<div class="card">
+<h3>Categories</h3>
+<p>12</p>
+</div>
+
+</div>
+
+<h2>Recent Products</h2>
+
+<table>
+
+<tr>
+<th>Product</th>
+<th>Category</th>
+<th>Stock</th>
+</tr>
+
+<tr>
+<td>Laptop</td>
+<td>Electronics</td>
+<td>25</td>
+</tr>
+
+<tr>
+<td>Printer</td>
+<td>Office</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>Keyboard</td>
+<td>Accessories</td>
+<td>30</td>
+</tr>
+
+</table>
+
+<div class="card">
+    <h3>Low Stock</h3>
+    <p>18</p>
+    <button id="openModal">View Low Stock Alert</button>
+</div>
+
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span id="closeModal">&times;</span>
+
+<h2>Inventory Notice</h2>
+
+<p>Low stock products require restocking.</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html
